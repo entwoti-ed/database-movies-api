@@ -8,7 +8,7 @@ let mongoose = require('mongoose')
 let authRouter = require('./routes/auth');
 let apiRouter = require('./routes/api');
 let USER_DB = require('./DB/USER_DB')
-
+mongoose.set('useFindAndModify', false)
 mongoose.connect(`mongodb+srv://${USER_DB.username}:${USER_DB.password}@${USER_DB.username}-jppyj.mongodb.net/data-movies?retryWrites=true&w=majority`, {useNewUrlParser: true});
 
 let app = express();

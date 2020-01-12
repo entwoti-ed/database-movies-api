@@ -7,10 +7,6 @@
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
-<<<<<<< HEAD
-=======
-    "date-and-time": "^0.11.1",
->>>>>>> adding some changes
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "hbs": "~4.0.4",

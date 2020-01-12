@@ -19,12 +19,12 @@ router.post('/', function(req, res ,next) {
   })
   newUser.save(function(err) {
     if (err) {
-      res.json({
+      return res.json({
         status: 'failed',
         message: 'email or username already in use.'
       })
     } else {
-      res.json({
+      return res.json({
         status: 'success',
         key_token: token,
         message: 'success to sign up, go make your first request using your key token!'
