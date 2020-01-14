@@ -16,7 +16,7 @@ description : get movies data
 | parameter |  required |                                     valid options | default value | description                                                                       |
 |-----------|:---------:|--------------------------------------------------:|---------------|-----------------------------------------------------------------------------------|
 | key_token | *required | 64 digit of token key you got when you registered |               | sign up in https://ducky-database-movies-api.herokuapp.com/auth to get your key token |
-| limit     | *optional |                  (Number 1 - 100) Max 50 queries | 15            | Number limit of queries                                                           |
+| limit     | *optional |                  (Number 1 - 50) Max 50 queries | 15            | Number limit of queries                                                           |
 | page      | *optional |                                    (Number 1 - n) | 1             | Number of page, you can use this for pagination                                   |                                                           |
 | search    | *optional | String title of searched movie (ex: transformer)  |               | Title of searched movie                                                             |
 
